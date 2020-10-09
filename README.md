@@ -1,7 +1,7 @@
-# "Multi language code generation for computational workflows" book
+# "Multi-language Code Generation for Computational Workflows" book
 
 This repository has chapters, code, and organizational materials for the (very technical) book
-"Multi language code generation for computational workflows".
+"Multi-language Code Generation for Computational Workflows".
 
 ***The book is not finished yet -- it is a work in progress...***
 
@@ -17,7 +17,7 @@ We develop and utilize Domain Specific Languages (DSLs) for natural language wor
 For the target computational workflows we assume the existence of packages that provide 
 monadic programming pipelines for the workflows.     
 
-We have parsers for DSLs that interpret the DSL sentences (commands) into code for the
+We have parsers for DSLs that interpret DSL sentences (commands) into code for
 targeted (monadic) packages.
 
 ## Programming languages
