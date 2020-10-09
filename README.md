@@ -10,15 +10,25 @@ This repository has chapters, code, and organizational materials for the (very t
 To describe how from natural and programing languages specifications to make parsers and interpreters
 for the generation of actionable or executable code.
 
+## The approach in brief
+
+We develop and utilize Domain Specific Languages (DSLs) for natural language workflows.
+
+For the target computational workflows we assume the existence of packages that provide 
+monadic programming pipelines for the workflows.     
+
+We have parsers for DSLs that interpret the DSL sentences (commands) into code for the
+targeted (monadic) packages.
+
 ## Programming languages
 
 - Parsers and interpreters: [Raku](https://raku.org), [Wolfram Language (WL)](https://www.wolfram.com/language/).
 
-- Computationa workflows: Julia, Python, R, WL.
+- Computational workflows: Julia, Python, R, WL.
 
 ## Exposition plan
 
-More or less standard exposition plan is followed:
+More or less a "standard" exposition plan is followed:
 
 - Motivation 
  
@@ -34,11 +44,13 @@ More or less standard exposition plan is followed:
   
 - How the parsers are made?
 
-- How the interpreter are made?
+- How the interpreters are made?
 
-- Special effort and use cases
+- Special efforts and use cases
 
-- Future work and how to redo the whole thing
+- Future work 
+
+  - And how to redo the whole thing
 
 ## Who is the intended reader?
 
@@ -46,21 +58,20 @@ Developers interested in:
 
 - Computational workflows
 
-- Parsers an interpreters
+- Parsers and interpreters
 
 ## Code and related repositories
 
 Two major types of code and related repositories: for parsing and interpretation, for computation.
+See the references below.
 
 ## Videos
 
-- 
-["useR! 2020: How to simplify Machine Learning workflows specifications (A. Antonov), lightning"](https://www.youtube.com/watch?v=b9Uu7gRF5KY),
+- ["useR! 2020: How to simplify Machine Learning workflows specifications (A. Antonov), lightning"](https://www.youtube.com/watch?v=b9Uu7gRF5KY),
 (2020), 
 R Consortium at YouTube.
 
--
-[Multi language Data Wrangling Translation - talk advertisement](https://www.youtube.com/watch?v=OHY64ezgnm4),
+- [Multi language Data Wrangling Translation - talk advertisement](https://www.youtube.com/watch?v=OHY64ezgnm4),
 (2020),
 Anton Antonov at YouTube.
 
